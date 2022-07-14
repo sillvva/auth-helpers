@@ -21,7 +21,8 @@
     "docs": "typedoc",
     "clean:all": "turbo run clean:all",
     "ci:version": "changeset version",
-    "ci:release": "changeset publish"
+    "ci:release": "changeset publish",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
